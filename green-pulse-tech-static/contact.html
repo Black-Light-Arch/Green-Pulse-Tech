@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us — Green Pulse Tech</title>
+  <link rel="icon" href="images/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><img src="images/logo.png" alt="Green Pulse Tech Logo" /><span>GREEN PULSE TECH</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="about.html" class="nav-link">About Us</a></li>
+      <li><a href="services.html" class="nav-link">Services</a></li>
+      <li><a href="president.html" class="nav-link">President</a></li>
+      <li><a href="vp.html" class="nav-link">Vice President</a></li>
+      <li><a href="contact.html" class="nav-link">Contact</a></li>
+      <li><a href="contact.html" class="btn-primary">GET STARTED</a></li>
+    </ul>
+    <button class="hamburger" id="menu-toggle"><i class="fas fa-bars" id="menu-icon"></i></button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html" class="mobile-nav-link">Home</a>
+    <a href="about.html" class="mobile-nav-link">About Us</a>
+    <a href="services.html" class="mobile-nav-link">Services</a>
+    <a href="president.html" class="mobile-nav-link">President</a>
+    <a href="vp.html" class="mobile-nav-link">Vice President</a>
+    <a href="contact.html" class="mobile-nav-link">Contact</a>
+    <a href="contact.html" class="btn-primary">GET STARTED</a>
+  </div>
+</header>
+
+<div class="page-content">
+  <div class="page-hero">
+    <span class="section-label">Get in Touch</span>
+    <h1>Contact <span class="green">Us</span></h1>
+    <p>Have a question, project idea, or partnership opportunity? We would love to hear from you.</p>
+  </div>
+
+  <section>
+    <div class="contact-grid">
+      <!-- Form -->
+      <div>
+        <h2 style="font-size:1.5rem;margin-bottom:8px;">Send Us a Message</h2>
+        <p style="color:var(--text-muted);font-size:0.9rem;margin-bottom:32px;">Fill in the form and our team will get back to you within 24 hours.</p>
+        <form id="contact-form">
+          <div class="grid-2" style="gap:16px;">
+            <div class="form-group">
+              <label class="form-label" for="name">Full Name</label>
+              <input class="form-input" type="text" id="name" name="name" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">Email Address</label>
+              <input class="form-input" type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="subject">Subject</label>
+            <input class="form-input" type="text" id="subject" name="subject" placeholder="What is this about?" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-textarea" id="message" name="message" placeholder="Tell us more about your inquiry..." required></textarea>
+          </div>
+          <button type="submit" class="form-btn">SEND MESSAGE</button>
+          <div id="form-success" class="form-success">
+            <i class="fas fa-check-circle" style="font-size:1.5rem;margin-bottom:8px;display:block;"></i>
+            Message sent! We will get back to you soon.
+          </div>
+        </form>
+      </div>
+
+      <!-- Contact Info -->
+      <div>
+        <div class="contact-info-card">
+          <h3 style="font-size:1.1rem;margin-bottom:4px;">Company Information</h3>
+          <p style="color:var(--text-muted);font-size:0.85rem;margin-bottom:8px;">Green Pulse Tech</p>
+          <hr class="divider" style="margin-bottom:0;" />
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i class="fas fa-location-dot"></i></div>
+            <div class="contact-info-text">
+              <strong>Office Address</strong>
+              <span>742 Green Innovation Drive<br>Karachi, Pakistan 74200</span>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon blue"><i class="fas fa-envelope"></i></div>
+            <div class="contact-info-text">
+              <strong>Email</strong>
+              <span>info@greenpulsetech.com</span>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i class="fas fa-phone"></i></div>
+            <div class="contact-info-text">
+              <strong>Phone (President)</strong>
+              <span>+92 320 2200163</span>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon blue"><i class="fas fa-phone"></i></div>
+            <div class="contact-info-text">
+              <strong>Phone (VP)</strong>
+              <span>+92 334 3055222</span>
+            </div>
+          </div>
+          <div class="contact-info-item" style="border-bottom:none;">
+            <div class="contact-info-icon"><i class="fas fa-clock"></i></div>
+            <div class="contact-info-text">
+              <strong>Business Hours</strong>
+              <span>Mon – Fri: 9:00 AM – 6:00 PM PKT</span>
+            </div>
+          </div>
+          <div class="map-placeholder">
+            <i class="fas fa-map-location-dot"></i>
+            <span>Karachi, Pakistan</span>
+            <span style="font-size:0.75rem;opacity:0.6;">Map integration coming soon</span>
+          </div>
+        </div>
+
+        <!-- Social -->
+        <div style="margin-top:24px;">
+          <p style="color:var(--text-muted);font-size:0.85rem;margin-bottom:16px;font-weight:500;">Follow Us</p>
+          <div style="display:flex;gap:12px;">
+            <a href="#" class="social-btn" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-btn" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-btn" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-btn" title="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand"><div class="footer-logo-row"><img src="images/logo.png" alt="Logo" /><span>GREEN PULSE TECH</span></div><p>Powering a Greener Tomorrow.</p></div>
+    <div class="footer-col"><h4>Company</h4><ul><li><a href="about.html">About Us</a></li><li><a href="services.html">Services</a></li><li><a href="president.html">President</a></li><li><a href="vp.html">Vice President</a></li></ul></div>
+    <div class="footer-col"><h4>Legal</h4><ul><li><a href="#">Privacy Policy</a></li><li><a href="#">Terms of Service</a></li><li><a href="#">Cookie Policy</a></li></ul></div>
+    <div class="footer-col"><h4>Connect</h4><ul><li><a href="contact.html">Contact Us</a></li><li><a href="#">LinkedIn</a></li><li><a href="#">Twitter</a></li><li><a href="#">GitHub</a></li></ul></div>
+  </div>
+  <div class="footer-bottom"><p>&copy; 2025 Green Pulse Tech. All Rights Reserved.</p><p>Powering a Greener Tomorrow.</p></div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
